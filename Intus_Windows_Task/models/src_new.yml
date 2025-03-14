@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: dev
+    schema: New
+    description: "This source contains raw tables loaded into the New schema."
+    tables:
+      - name: marketing_events
+        description: "Raw marketing event data."
+      - name: product_catalog
+        description: "Raw product catalog data with product details and categories."
+      - name: sales_transactions
+        description: "Raw sales transaction data including user, revenue, and cost details."
